@@ -1,7 +1,6 @@
 class Solution:
     def pattern1(self, n):
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                print(*)
-            }
-        }
+        for i in range(n):
+            for j in range(n):
+                print("*", end=" ")
+            print()
