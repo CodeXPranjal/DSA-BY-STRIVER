@@ -3,5 +3,6 @@ class Solution:
         if n == 0:
             return
 
+
         self.printNumbers(n - 1)
         print(n)
