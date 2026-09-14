@@ -4,5 +4,4 @@ class Solution:
             return 1
 
 
-
         return n * self.factorial(n - 1)
