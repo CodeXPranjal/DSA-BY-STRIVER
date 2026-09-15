@@ -1,13 +1,14 @@
 class Solution:
     def palindromeCheck(self, s):
 
-        def check(left, right):
-            if left >= right:
-                return True
+        i = 0
+        j = len(s) - 1
 
-            if s[left] != s[right]:
-                return False
+        while i < j:
+            if s[i] != s[j]:
+                return 0
 
-            return check(left + 1, right - 1)
+            i += 1
+            j -= 1
 
-        return check(0, len(s) - 1)
+        return 1
