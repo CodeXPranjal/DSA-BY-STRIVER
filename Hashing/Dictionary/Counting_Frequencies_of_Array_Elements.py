@@ -7,4 +7,5 @@ class Solution:
                 freq[i] += 1
             else:
                 freq[i] = 1
+                
         return list(freq.items())
