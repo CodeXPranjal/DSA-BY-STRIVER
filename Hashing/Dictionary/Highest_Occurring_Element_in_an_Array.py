@@ -15,4 +15,5 @@ class Solution:
                 smallest = min(smallest, i)
 
 
+
         return smallest
