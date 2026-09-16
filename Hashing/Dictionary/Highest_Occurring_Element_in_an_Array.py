@@ -14,4 +14,5 @@ class Solution:
             if freq[i] == m:
                 smallest = min(smallest, i)
 
+
         return smallest
