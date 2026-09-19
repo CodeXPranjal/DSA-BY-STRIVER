@@ -11,5 +11,4 @@ class Solution:
 
             nums[i],nums[smallest]=nums[smallest],nums[i]
 
-
         return nums
