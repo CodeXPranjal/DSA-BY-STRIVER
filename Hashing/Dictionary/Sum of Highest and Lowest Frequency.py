@@ -7,5 +7,4 @@ class Solution:
         
         m=max(freq.values())+min(freq.values())
 
-
         return m
