@@ -7,3 +7,6 @@ class Solution:
             s1+=s[i]
         
         return s==s1
+
+
+        
