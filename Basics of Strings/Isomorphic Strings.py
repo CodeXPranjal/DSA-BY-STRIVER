@@ -16,4 +16,5 @@ class Solution:
             freq[a] = b
             reverse[b] = a
             
+            
         return True
