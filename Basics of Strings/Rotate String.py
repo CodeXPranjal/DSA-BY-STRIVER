@@ -8,5 +8,6 @@ class Solution:
                 return True
             else:
                 s = s[1:]+s[0]
+
                 
         return s == goal
