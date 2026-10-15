@@ -8,6 +8,7 @@ class Solution:
         for i in range(len(s)):
             if p[i]!=r[i]:
                 return False
+
         
         return True
          
