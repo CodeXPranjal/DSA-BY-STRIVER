@@ -9,6 +9,5 @@ class Solution:
             if p[i]!=r[i]:
                 return False
 
-        
         return True
          
