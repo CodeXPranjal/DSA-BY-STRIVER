@@ -15,7 +15,5 @@ class Solution:
         for i in t:
             l.append(i[0])
 
-
-
         return l
     
