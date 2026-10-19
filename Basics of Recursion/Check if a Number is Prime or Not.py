@@ -7,4 +7,5 @@ class Solution:
             if num % i == 0:
                 return False
 
+
         return True
