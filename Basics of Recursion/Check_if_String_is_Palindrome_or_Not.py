@@ -12,5 +12,4 @@ class Solution:
             j -= 1
 
 
-
         return 1
