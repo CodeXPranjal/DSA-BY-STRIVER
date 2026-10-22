@@ -10,5 +10,6 @@ class Solution:
                 n+=temp
                 num//=10
 
+
                 
         return self.addDigits(n)
