@@ -9,5 +9,6 @@ class Solution:
                 temp=num%10
                 n+=temp
                 num//=10
+
                 
         return self.addDigits(n)
