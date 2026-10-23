@@ -1,14 +1,17 @@
 class Solution:
     def selectionSort(self, nums):
-        n=len(nums)
-        for i in range(0,n-1):
+        n = len(nums)
 
-            smallest=i
+        for i in range(n):
+            min_index = i
 
-            for j in range(i+1,n):
-                if nums[j]<nums[smallest]:
-                    smallest=j
+            for j in range(i + 1, n):
+                if nums[j] < nums[min_index]:
+                    min_index = j
 
-            nums[i],nums[smallest]=nums[smallest],nums[i]
+            nums[i], nums[min_index] = nums[min_index], nums[i]
+
+
+
 
         return nums
