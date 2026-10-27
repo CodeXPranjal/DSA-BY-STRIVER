@@ -10,5 +10,4 @@ class Solution:
                     min_index = j
 
             nums[i], nums[min_index] = nums[min_index], nums[i]
-
         return nums
