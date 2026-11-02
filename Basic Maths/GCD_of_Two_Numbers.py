@@ -7,4 +7,6 @@ class Solution:
                 n2 = n2 % n1
 
 
+
+
         return max(n1, n2)
