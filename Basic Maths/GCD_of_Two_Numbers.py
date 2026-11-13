@@ -9,6 +9,4 @@ class Solution:
 
 
 
-
-
         return max(n1, n2)
